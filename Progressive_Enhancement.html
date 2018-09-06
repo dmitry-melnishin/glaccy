@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="format-detection" content="telephone=no"/>     убирает стили у phone number-->
+    <title>Gllacy Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header inner-main-header">
+      <div class="container">
+        <div class="header-top clearfix">
+          <div class="header-logo">
+            <img src="img/logo.png" alt="Gllacy Shop" width="154" height="64"> <!--всем ли содержательным img нужен figure?-->
+          </div>
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a class="nav-element" href="https://4pda.ru" target="_blank">Каталог</a>
+                <ul class="sub-menu">
+                  <li class="sub-menu-title"><a href="">Новинки</a></li>
+                  <li><a href="file:///C:/Users/National/Desktop/gllacy/gllacy/index2.html" target="_blank">Сливочное</a></li>
+                  <li><a href="#">Щербеты</a></li>
+                  <li><a href="#">Фруктовый лед</a></li>
+                  <li><a href="#">Мелорин</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-element" href="#">Доставка и оплата</a>
+              </li>
+              <li>
+                <a class="nav-element" href="#">О Компании</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-block clearfix">
+            <div class="user-block-item user-block-item-cart empty-cart">
+                <span class="not-active">Пусто</span>
+            </div>
+
+            <div class="user-block-item user-block-item-login">
+              <label for="email">Вход
+                <form action="" method="post">
+                  <div class="email">
+                    <input type="email" name="email" placeholder="Электронная почта" id="email">
+                    <span class="tip">Электронная почта</span>
+                  </div>
+                  <div class="password">
+                    <input type="password" name="password" placeholder="Пароль">
+                    <span class="tip">Пароль</span>
+                  </div>
+                  <button class="btn user-block-item-login-btn" type="submit">Войти</button>
+                  <div class="options">
+                    <p>
+                      <a href="#">Забыли пароль?</a>
+                    </p>
+                    <p>
+                      <a href="#">Новая регистрация</a>
+                    </p>
+                  </div>
+                </form>
+              </label>
+            </div>
+
+            <div class="user-block-item user-block-item-search">
+              <label>seach
+                <form action="" method="get">
+                  <div class="search">
+                    <input type="text" name="search" placeholder="Что ищем?">
+                    <span class="tip">Что ищем?</span>
+                  </div>
+                </form>
+              </label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="header-bottom inner-header-bottom clearfix">
+          <div class="right-side">
+            <div class="working-hours">С 10 до 20, ежедневно</div>
+            <div class="phone-number">8 812 450-25-25</div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+
+<div class="modal-content inner-modal-content">
+  <p>Мы обязательно Вам ответим!</p>
+  <form class="login-form" action="" method="post">
+    <div class="name">
+      <input type="text" name="login" placeholder="Как вас зовут?">
+      <span class="tip">Как вас зовут?</span>
+    </div>
+    <div class="email">
+      <input type="text" name="email" placeholder="Ваша почта для ответа?">
+      <span class="tip">Ваша почта для ответа?</span>
+    </div>
+    <div class="comment">
+      <textarea name="comment" placeholder="Напишите что-нибудь..."></textarea>
+      <span class="tip">Напишите что-нибудь...</span>
+    </div>
+    <button class="btn" type="submit">Отправить</button>
+  </form>
+</div>
+
+
+<footer class="main-footer">
+  <div class="container clearfix">
+    <div class="footer-social"> <!-- почему section, а не article? -->
+      <a class="social-btn social-btn-tv" href="https://twitter.com">Твиттер</a>
+      <a class="social-btn social-btn-in" href="https://instagram.com">Инстаграм</a>
+      <a class="social-btn social-btn-fb" href="https://facebook.com">Фейсбук</a>
+      <a class="social-btn social-btn-vk" href="https://vk.com">Вконтакте</a>
+    </div>
+    <div class="footer-docs">
+      <div class="left-side">
+        <p class="first-item">
+          <a href="#">Для поставщиков</a>
+        </p>
+        <p class="second-item">
+          <a href="#">О производстве</a>
+        </p>
+      </div>
+      <div class="right-side">
+        <p>
+          <a href="#">Наши документы</a>
+        </p>
+        <p class="second-item">
+          <a href="#">Экологические стандарты</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="footer-logo">
+        <img src="img/logo-htmlacademy-small.png" alt="Логотип HTMLacademy" width="108" height="39">
+      </div>
+      Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> &#169; 2017
+    </div>
+  </div>
+</footer>
